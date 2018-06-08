@@ -11,6 +11,9 @@ FREEHTML5.COのテンプレを流用している。
 netlifyでフォームを使うためにホスティングしている。
 独自ドメインについては未定。
 
+## Form
+GoogleFormを利用している。
+
 ## Compile
 
 SCSSを利用する。

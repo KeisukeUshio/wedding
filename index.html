@@ -521,47 +521,72 @@
 
 				<div class="col-md-6 animate-box">
 					<div class="fh5co-video fh5co-bg" style="background-image: url(images/img_bg_3.jpg); ">
-						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video2"></i></a>
+						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i
+								class="icon-video2"></i></a>
 						<div class="overlay"></div>
 					</div>
 				</div>
 			</div>
 
-			
+
 		</div>
 	</div>
 
-	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_4.jpg);">
-		<div class="overlay"></div>
+	<div id="fh5co-contact" class="fh5co-section">
 		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Are You Attending?</h2>
-					<p>来てくれるんならここに入れてくれや。頼むで。 Thanks.</p>
-				</div>
-			</div>
-			<div class="row animate-box">
-				<div class="col-md-10 col-md-offset-1">
-					<form name="contactForm" class="form-inline" method="POST" action="/thanks" data-netlify="true">
-						<input type="hidden" name="form-name" value="contactForm">
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label class="sr-only">Name</label>
-								<input type="text" name="name" class="form-control" id="name" placeholder="Name">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 animate-box">
+					<h3>Get In Touch</h3>
+					<form name="getInTouch" method="POST"
+					      action="https://docs.google.com/forms/d/e/1FAIpQLSdaago2WFPWEk3EbXnMziW3XgEzhTkTPov1FneZfuiSV6PEHg/formResponse"
+					      target="hidden_iframe" onsubmit="submitted=true">
+						<input type="hidden" name="form-name" value="getInTouch">
+						<div class="row form-group">
+							<div class="col-md-12">
+								<div class="col-md-6">
+									<label for="fname">First Name</label>
+									<input type="text" name="entry.1802530135" id="fname" class="form-control"
+									       placeholder="Your firstname">
+								</div>
+								<div class="col-md-6">
+									<label for="lname">Last Name</label>
+									<input type="text" name="entry.2082996370" id="lname" class="form-control"
+									       placeholder="Your lastname">
+								</div>
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label class="sr-only">Email</label>
-								<input type="email" name="email" class="form-control" id="email" placeholder="Email">
+
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="email">Email</label>
+								<input type="text" name="entry.1819486971" id="email" class="form-control"
+								       placeholder="Your email address">
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-4">
-							<button type="submit" class="btn btn-default btn-block">I am Attending</button>
+
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="subject">Subject</label>
+								<input type="text" name="entry.452746614" id="subject" class="form-control"
+								       placeholder="Your subject of this message">
+							</div>
 						</div>
+
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="message">Message</label>
+								<textarea name="entry.72919350" id="message" cols="30" rows="10" class="form-control"
+								          placeholder="Write us something"></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<input type="submit" value="Send Message" class="btn btn-primary">
+						</div>
+
 					</form>
 				</div>
 			</div>
+
 		</div>
 	</div>
 
@@ -574,65 +599,72 @@
 						<small class="block">&copy; 2018 m3c753. All Rights Reserved.</small>
 					</p>
 					<p>
-						<ul class="fh5co-social-icons">
-							<li><a href="https://twitter.com/m3c753"><i class="icon-twitter"></i></a></li>
-							<li><a href="https://www.facebook.com/keisuke.ushio.1"><i class="icon-facebook"></i></a></li>
-						</ul>
+					<ul class="fh5co-social-icons">
+						<li><a href="https://twitter.com/m3c753"><i class="icon-twitter"></i></a></li>
+						<li><a href="https://www.facebook.com/keisuke.ushio.1"><i class="icon-facebook"></i></a></li>
+					</ul>
 					</p>
 				</div>
 			</div>
 
 		</div>
 	</footer>
-	</div>
+</div>
 
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-	</div>
-	
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- countTo -->
-	<script src="js/jquery.countTo.js"></script>
+<div class="gototop js-top">
+	<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+</div>
 
-	<!-- Stellar -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="js/jquery.waypoints.min.js"></script>
+<!-- Carousel -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- countTo -->
+<script src="js/jquery.countTo.js"></script>
 
-	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
-	<script src="js/simplyCountdown.js"></script>
-	<!-- Main -->
-	<script src="js/main.js"></script>
+<!-- Stellar -->
+<script src="js/jquery.stellar.min.js"></script>
+<!-- Magnific Popup -->
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/magnific-popup-options.js"></script>
 
-	<script>
-    var d = new Date('November 23, 2018 10:00:00');
+<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
+<script src="js/simplyCountdown.js"></script>
+<!-- Main -->
+<script src="js/main.js"></script>
 
-    // default example
-    simplyCountdown('.simply-countdown-one', {
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate()
-    });
+<script>
+	var d = new Date('November 23, 2018 10:00:00');
 
-    //jQuery example 今回はノーマルで使用する
-    // $('#simply-countdown-losange').simplyCountdown({
-    //     year: d.getFullYear(),
-    //     month: d.getMonth() + 1,
-    //     day: d.getDate(),
-    //     enableUtc: false
-    // });
+	// default example
+	simplyCountdown('.simply-countdown-one', {
+		year: d.getFullYear(),
+		month: d.getMonth() + 1,
+		day: d.getDate()
+	});
+
+	// GoogleForm送信後のリダイレクト用
+	var submitted = false;
+
+	//jQuery example 今回はノーマルで使用する
+	// $('#simply-countdown-losange').simplyCountdown({
+	//     year: d.getFullYear(),
+	//     month: d.getMonth() + 1,
+	//     day: d.getDate(),
+	//     enableUtc: false
+	// });
+
 </script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+        onload="if(submitted){window.location='thanks.html'}">
+</iframe>
 
-	</body>
+</body>
 </html>
 

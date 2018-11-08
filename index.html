@@ -516,13 +516,14 @@
 <script src="js/main.js"></script>
 
 <script>
-	var d = new Date('November 24, 2018 13:00:00');
+	var d = new Date('2018/11/24 13:00:00');
 
 	// default example
 	simplyCountdown('.simply-countdown-one', {
 		year: d.getFullYear(),
-		month: d.getMonth() + 1,
-		day: d.getDate()
+		month: d.getMonth(),
+		day: d.getDate() + 1
+
 	});
 
 	// GoogleForm送信後のリダイレクト用
